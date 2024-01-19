@@ -48,9 +48,9 @@ class updateCFDDNS
         $this->apiKey = (string) $argv[2]; // CF Global API Key
         // $hostnames = (string) $argv[3]; // example: example.com.uk---sundomain.example1.com---example2.com
 		
-		$potere = (string) "ilpoteredellamarmellata.it---www.ilpoteredellamarmellata.it---ftp.ilpoteredellamarmellata.it"
-		$bocca = (string) "dottboccarusso.it---www.dottboccarusso.it---ftp.dottboccarusso.it---mail.dottboccarusso.it"
-		$hostnames = $potere . $bocca
+	$potere = (string) "ilpoteredellamarmellata.it---www.ilpoteredellamarmellata.it---ftp.ilpoteredellamarmellata.it"
+	$bocca = (string) "dottboccarusso.it---www.dottboccarusso.it---ftp.dottboccarusso.it---mail.dottboccarusso.it"
+	$hostnames = $potere . $bocca
 		
         $this->ipv6 = $this->getIpAddressIpify();
 
